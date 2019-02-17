@@ -18,6 +18,13 @@
         <module>eureka-client-server-provider</module>
         <module>service-ribbon</module>
         <module>feign</module>
+        <module>ribbon-hystrix</module>
+        <module>zuul</module>
+        <module>config-server</module>
+        <module>config-client</module>
+        <module>eureka-server2</module>
+        <module>service-provider1-zipkin</module>
+        <module>service-provider2-zipkin</module>
     </modules>
 
     <properties>

@@ -24,7 +24,7 @@ public class HiService {
 
     public String hi(String name) {
         ResponseEntity<String> responseEntity = restTemplate.getForEntity(
-                hiUrl + "?name={ name}", String.class, "zhuge");
+                hiUrl + "?name={name}", String.class, "zhuge");
 
         return responseEntity.getBody() + "\ncomes from " + hiUrl;
     }

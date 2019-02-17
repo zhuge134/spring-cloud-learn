@@ -1,3 +1,5 @@
 services:
   service-hi:
     hiUrl: http://service-hi/example/home
+spring:
+  profiles: dev

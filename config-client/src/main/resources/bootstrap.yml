@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      enabled: true
+      #uri: http://localhost:8781
+      profile: prod
+      discovery:
+        enabled: true
+        service-id: config-server
+      retry:
+        initial-interval: 1000
+        max-attempts: 10
